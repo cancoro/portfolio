@@ -1,0 +1,37 @@
+@charset 'UFT-8';
+.work_content {
+    padding-block: 3em;
+    max-width: 600px;
+    margin: 0 auto;
+    .work_img {
+        border-radius: 25px;
+        overflow: hidden;
+        img{
+            width: 100%;
+            vertical-align: bottom;
+        }
+    }
+    .explanation {
+        a {
+            text-decoration: underline;
+        }
+    }
+    dl {
+        text-align: left;
+        margin-block: 40px;
+    }
+    dt {
+        &::before {
+            content: "■";
+            padding-right: 10px;
+        }
+    }
+    dd {
+        margin-bottom: 16px;
+    }
+
+    .btn {
+        margin: 0 auto;
+    }
+    
+}
